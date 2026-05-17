@@ -15,7 +15,7 @@ export default function ContactForm() {
       showToast("Please fill in your name, email, and message.", { variant: "error" });
       return;
     }
-    showToast("Thanks, we’ve received your message and will reply soon.", {
+    showToast("Thanks, we've received your message and will reply soon.", {
       variant: "success",
     });
     setName("");
